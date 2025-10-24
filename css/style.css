@@ -1,9 +1,9 @@
 body {
-    font-family: "Roboto", "Raleway", sans-serif;
+    font-family: "Roboto", sans-serif;
     background-color: #f4f4fd;
     font-size: 16px;
     line-height: 1.5;
-    color: #434455;
+    color: #FFFFFF;
 }
 
 .header {
@@ -40,6 +40,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    font-style: normal
 }
 
 .address-list-link {
@@ -56,9 +57,10 @@ body {
 }
 
 .logo {
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4D5AE5;
@@ -66,9 +68,10 @@ body {
 }
 
 .logo-1 {
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #2E2F42;
@@ -81,12 +84,14 @@ body {
 
 
 .order-service-btn {
-    border-radius: 4px;
-    padding: 16px 32px;
-    width: 169px;
-    height: 56px;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background: #4D5AE5;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    cursor: pointer;
 }
 
 .order-service-btn:hover,
@@ -97,7 +102,7 @@ body {
 .h-one {
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.07143;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
     color: #FFFFFF;
@@ -106,12 +111,14 @@ body {
 .h-two {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    text-align: center;
+    text-transform: capitalize
 }
 
-.h-three {
+.header-three {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -153,8 +160,8 @@ body {
 
 .our-portfolio-field {
     border: 1px solid #E7E9FC;
-    width: 360px;
-    height: 420px;
+
+
 }
 
 .our-portfolio-p {
@@ -178,19 +185,23 @@ body {
 }
 
 .footer .logo {
+    font-family: "Raleway",
+        sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4D5AE5;
     text-decoration: none;
 }
 
-.footer .logo-2 {
+.footer .logo-two {
+    font-family: "Raleway",
+        sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #F4F4FD;
