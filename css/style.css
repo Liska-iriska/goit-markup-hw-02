@@ -3,7 +3,8 @@ body {
     background-color: #f4f4fd;
     font-size: 16px;
     line-height: 1.5;
-    color: #FFFFFF;
+    color: #434455;
+    background-color: #FFFFFF;
 }
 
 .header {
@@ -34,13 +35,16 @@ body {
 
 }
 
+.address {
+    font-style: normal;
+}
 
 .address-list {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    font-style: normal
+    font-style: normal;
 }
 
 .address-list-link {
