@@ -22,6 +22,18 @@ body {
     text-decoration: none;
 }
 
+.nav-list-link:hover,
+.nav-list-link:focus,
+.address-list-link:hover,
+.address-list-link:focus {
+    color: #404BBF
+}
+
+.nav-list-link:active {
+    text-decoration: underline solid 4px #404BBF;
+
+}
+
 
 .address-list {
     font-weight: 400;
@@ -75,6 +87,11 @@ body {
     height: 56px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background: #4D5AE5;
+}
+
+.order-service-btn:hover,
+.order-service-btn:focus {
+    background-color: #404BBF;
 }
 
 .h-one {
